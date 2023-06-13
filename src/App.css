@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  
+}
+
+p {
+  font-size: 35px;
+}
+  
+ 
+
+
+.appWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.imageWrapper {
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://www.wdw-magazine.com/wp-content/uploads/2021/05/WDW-Magazine-Magic-Kingdom-Cinderella-Castle-Zoom-Backgrounds-Front-Daytime-Featured.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.imageContainer {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255,255,255, 0.8);
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  opacity: 1;
+}
+
+img {
+  max-height: 100%;
+  max-width: 90%;
+}
+
+svg {
+  font-size: 50px;
+  color: green;
+  margin: 20px;
+}
+
+svg:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+svg:active {
+  color: red;
+}
